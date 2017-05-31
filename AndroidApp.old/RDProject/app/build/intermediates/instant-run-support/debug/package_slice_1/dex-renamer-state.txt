@@ -1,0 +1,4 @@
+#Thu May 11 11:09:19 CEST 2017
+base.0=E\:\\Exia\\2017\\RDProj\\RD_Sources\\AndroidApp\\RDProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
+renamed.0=classes.dex
+file.0=E\:\\Exia\\2017\\RDProj\\RD_Sources\\AndroidApp\\RDProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1\\classes.dex

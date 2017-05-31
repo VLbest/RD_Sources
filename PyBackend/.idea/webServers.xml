@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="61a44220-3502-4d06-973e-136a8e4a17b2" name="google_ubu" url="http://146.148.104.110">
+        <fileTransfer host="146.148.104.110" port="22" privateKey="C:\Users\VLI\.ssh\google_compute_engine" rootFolder="/root/ftpdata" accessType="SFTP" username="VLI" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

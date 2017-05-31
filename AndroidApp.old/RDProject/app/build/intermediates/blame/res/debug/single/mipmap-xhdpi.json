@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Exia\\2017\\RDProj\\RD_Sources\\AndroidApp\\RDProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "E:\\Exia\\2017\\RDProj\\RD_Sources\\AndroidApp\\RDProject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Exia\\2017\\RDProj\\RD_Sources\\AndroidApp\\RDProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "E:\\Exia\\2017\\RDProj\\RD_Sources\\AndroidApp\\RDProject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,120 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:4:5-68
+	android:name
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:4:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:5:5-74
+	android:name
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:5:22-71
+uses-permission#android.permission.INTERNET
+ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:7:22-76
+uses-feature#android.hardware.bluetooth_le
+ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:8:5-10:35
+	android:required
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:10:9-32
+	android:name
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:9:9-53
+application
+ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:11:5-32:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VLI\.android\build-cache\9b60d1581824733d00f553eeab346c264b24ae89\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VLI\.android\build-cache\ef92f2ea901d479eae36810eaa39b443f11b97c0\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VLI\.android\build-cache\1975a9cdc383580e23aeebe6478cf255a241b1a8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\VLI\.android\build-cache\c7599d9a54cef5c807dff28caa7e8981cdd99f5e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\VLI\.android\build-cache\c36b9a5d468f3f5b94b7bbac577cc2fb534e74e6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\VLI\.android\build-cache\21e5830d70541ab59a644c2a937f7954f103d84e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VLI\.android\build-cache\31047bba9e1386f43aa509f5f979ee2d0d8307d2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VLI\.android\build-cache\cf203c2c74cf2ec2a290fc9b0be5fb72c92bced4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VLI\.android\build-cache\8e072268ad68ad62c87e379964fb123052f4069c\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:14:9-41
+	android:supportsRtl
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:16:9-35
+	android:roundIcon
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:15:9-54
+	android:allowBackup
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:13:9-43
+	android:theme
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:17:9-40
+activity#com.rdproj.vli.rdproject.MainActivity
+ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:18:9-28:20
+	android:label
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:21:13-56
+	android:configChanges
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:20:13-74
+	android:theme
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:22:13-63
+	android:name
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:19:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:23:13-27:25
+action#android.intent.action.MAIN
+ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:24:13-65
+	android:name
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:24:21-62
+category#android.intent.category.LAUNCHER
+ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:26:13-73
+	android:name
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:26:23-70
+activity#com.thalmic.myo.scanner.ScanActivity
+ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:29:9-31:59
+	android:label
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:31:13-56
+	android:name
+		ADDED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml:30:13-64
+uses-sdk
+INJECTED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VLI\.android\build-cache\9b60d1581824733d00f553eeab346c264b24ae89\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VLI\.android\build-cache\ef92f2ea901d479eae36810eaa39b443f11b97c0\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VLI\.android\build-cache\1975a9cdc383580e23aeebe6478cf255a241b1a8\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\VLI\.android\build-cache\c7599d9a54cef5c807dff28caa7e8981cdd99f5e\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\VLI\.android\build-cache\c36b9a5d468f3f5b94b7bbac577cc2fb534e74e6\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\VLI\.android\build-cache\21e5830d70541ab59a644c2a937f7954f103d84e\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VLI\.android\build-cache\31047bba9e1386f43aa509f5f979ee2d0d8307d2\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VLI\.android\build-cache\cf203c2c74cf2ec2a290fc9b0be5fb72c92bced4\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\VLI\.android\build-cache\a6d90bf4d17e3ff9755444f3efa8f3ba4bbabf8b\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VLI\.android\build-cache\8e072268ad68ad62c87e379964fb123052f4069c\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VLI\.android\build-cache\9b60d1581824733d00f553eeab346c264b24ae89\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Exia\2017\RDProj\RD_Sources\AndroidApp\RDProject\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VLI\.android\build-cache\9b60d1581824733d00f553eeab346c264b24ae89\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VLI\.android\build-cache\ef92f2ea901d479eae36810eaa39b443f11b97c0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VLI\.android\build-cache\1975a9cdc383580e23aeebe6478cf255a241b1a8\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\VLI\.android\build-cache\c7599d9a54cef5c807dff28caa7e8981cdd99f5e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\VLI\.android\build-cache\c36b9a5d468f3f5b94b7bbac577cc2fb534e74e6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\VLI\.android\build-cache\21e5830d70541ab59a644c2a937f7954f103d84e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VLI\.android\build-cache\31047bba9e1386f43aa509f5f979ee2d0d8307d2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VLI\.android\build-cache\cf203c2c74cf2ec2a290fc9b0be5fb72c92bced4\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VLI\.android\build-cache\8e072268ad68ad62c87e379964fb123052f4069c\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VLI\.android\build-cache\9b60d1581824733d00f553eeab346c264b24ae89\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VLI\.android\build-cache\9b60d1581824733d00f553eeab346c264b24ae89\output\AndroidManifest.xml:26:9-47

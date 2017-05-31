@@ -1,0 +1,7 @@
+#Thu May 11 11:03:50 CEST 2017
+base.0=E\:\\Exia\\2017\\RDProj\\RD_Sources\\AndroidApp\\RDProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3e1a0f68f69b1d226bf273151c946f4cdc9f0a9e
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\Exia\\2017\\RDProj\\RD_Sources\\AndroidApp\\RDProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_db53b9df8fb9b1b4ef75d70b55aee4e4922a27d0\\classes.dex
+base.1=E\:\\Exia\\2017\\RDProj\\RD_Sources\\AndroidApp\\RDProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_db53b9df8fb9b1b4ef75d70b55aee4e4922a27d0
+file.0=E\:\\Exia\\2017\\RDProj\\RD_Sources\\AndroidApp\\RDProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_3e1a0f68f69b1d226bf273151c946f4cdc9f0a9e\\classes.dex

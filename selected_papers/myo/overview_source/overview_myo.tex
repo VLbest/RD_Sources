@@ -1,0 +1,162 @@
+\documentclass{article}
+\title{Myo research papers quick overview}
+\begin{document}
+\section{About Myo}
+
+Myo is an armband that ca be place in forearm. It can capture many signals and send they through a wireless connection (Bluetooth Low Energy 4.0+).
+The obtained features for each hand are, three components for acceleration, three components for angular momentum, four components of orientation All these are called IMU (internal measurement units).  Also Myo can provide 8 components for EMG.
+\subsection{ 8 EMG (Electromyography) signals}
+Electrodes in Myo armband is circular positions and the
+main muscles that covered are Extensor Digitorum and Flexor
+Digitorum. These are the muscles that move wrist, index,
+middle, ring, and little finger.\\
+In Myo armband, the EMG data from eight channels has
+range from -127 to 127 in ADC units (\emph{Need to be sure they are not converted somewhere}).
+
+\section{Comparison of Five Time Series EMG Features Extractions Using Myo Armband}
+Written in 2015. - 4 pages\\
+Difficulty: 3/10\\
+This parer treat the subject of extracting features (Mean Absolute Value, Variance...) from Myo's EMG sensors (8 channels).
+\begin{center}
+\textit{Time series features extraction
+are methods to extract informations that embedded in EMG
+signals in sequence data points over time interval.}
+\end{center}
+The features considered in this paper are: Mean Absolute Value
+(MAV), Variance (VAR), Willison Amplitude (WAMP), Waveform
+Length (WL), and Zero Crossing (ZC)\\
+
+The research is focused on detecting fingers movement not arm movement.(fist (F), rest (R), half-fist (HF), gun-point (GP), and mid-finger fold (MF))
+
+\subsection{What does it means?}
+Basically this paper tells about deficiencies between 5 ways to represent an EMG data of Myo. They converts EMG time series into 5 representations and then they comparing the values of 4 f positions. That allow to find a feature that may be the most useful during EMG series recognition. 
+\subsection{Results}
+Mean absolute value is the best feature. It followed by Variance.
+\subsection{What i think about it}
+\paragraph{Pros}
+It is very useful to have a one value representation of 8 values especially if this value can be unique for each gesture. 
+\paragraph{Cons}
+I have no idea if the MAV + VAR will be still unique representation if the number of gestures will grow. \\
+They are not using Accelerometer, Gyroscope, Orientation sensors.\\
+They are not evaluating whole arm movements.
+They perform they tests with static position of arm.
+
+\section{Evaluation of Human-Myo Gesture Control Capabilities in Continuous Search and Select Operations}
+Written in 2016. - 6 pages\\
+Difficulty: 1/10
+
+\begin{center}
+\textit{The goal is to investigate ways in which visually impaired users could use the Myo to control the output of an assistive technology.}
+\end{center}
+\subsection{What does it means?}
+Well, this guys decided to find the precision threshold of human sensory capabilities when interpreting haptic and tactile feedback.\\ Basically they converted Myo's data to a sound. Then , they asked participants to repeat some gestures while listening to sound produced by converted Myo's data. Being guided by this sound, participants tried to reproduce given gestures as close as possible.
+
+\subsection{What i think about it}
+I don't think this paper represents some interest. 
+
+\section{Hand Posture and Gesture Recognition using MYO Armband and Spectral Collaborative Representation based Classification}
+Written in 2015. - 2 pages\\
+Difficulty: 6.7/10
+
+This paper describes the study on arm posture recognition using EMG signals of Myo. 
+\begin{center}
+\textit{The recognition accuracy obtained for a
+set of six hand gestures and postures is promising with an
+accuracy over 97\% which is a competent result in the related
+literature.}
+\end{center}
+
+Here they used Ordered Subspace Clustering (OSC) and spectral version of Collaborative Representation based Classification (CRC) to create a training dictionary and recognize gestures. Strangely, they decides to "reinvent the wheel" by picking 6 gestures that are already can be recognized by Myo itself. \\
+Unlike the previous study, here they use all 8 EMG signals that are converted to... [\textit{have no idea. It is some spectral form that i don't know. Need to dig it a bit more}]. Also the final system is able to recognize gesture in real time spotting the gesture in a continuous flow of data.\\
+
+\subsection{What i think about it}
+A nice done stuff, but it is strange why they used already defined by Myo gestures. Also the paper it not clear enough so, it might be challenging to understand. 
+\paragraph{Pros}
+A real time recognition is great (almost necessary) feature.
+It seems to work very well.
+\paragraph{Cons}
+Can it be generalize to other gestures?
+Details of implementation are not explained.
+Acc, Gyro, Ori sensors are not used.
+
+\section{Real Time Algorithm for Efficient HCI Employing Features Obtained From MYO Sensor}
+Written in 2016. - 4 pages\\
+Difficulty: 8.5/10
+
+\begin{center}
+\textit{This paper presents a new gesture recognition algorithm that uses different features obtained from MYO sensor.}
+\end{center}
+Proposed algorithm basically have three building blocks, feature extraction, two Dimensional Principal Component Analysis (2DPCA) and Canonical Correlation Analysis (CCA).
+\subsection{What i think about it}
+Step-by-step explanation of data processing.
+It can be a good solution. It is well explained, however it's still not easy to implement.
+\paragraph{Pros}
+Real time.
+Many other papers that uses Myo-like features in different ways are cited.
+Good results with small training set.
+\paragraph{Cons}
+It has two examples, gaming and air writing. We'll need to choose one or combine them.
+Have no idea how efficient it is in finger movement recognition.
+
+\section{SCEPTRE: a Pervasive, Non-Invasive, and Programmable Gesture Recognition Technology}
+Written in 2016 or 2015. - 12 pages\\
+Difficulty: 7/10
+
+It claims to have almost 98\% accuracy when recognizing 20 randomly picked gestures from ASL (American sign language). 
+
+\begin{center}
+\textit{The system that is proposed as part of this work, SCEPTRE,
+fulfills these requirements. The entire system is comprised of
+an Android smartphone or a Bluetooth enabled computer and
+one to two commercial grade Myo devices that are worn on
+the wrist to monitor accelerometer, electromyogram(EMG)
+and orientation. Data is aggregated and preprocessed in
+the smartphones and is either processed locally or sent to a
+server.}
+\end{center}
+
+It uses EMG, ACC and ORI data to classify gestures. Also the system can be easily trained to recognize user-defined gestures. If two gestures are too similar the system can detect the "overlapping" part.
+
+\subsection{What i think about it}
+A very well thought paper that describes a user oriented gesture recognition system. It principally uses DTW and energy based comparision methods.
+\paragraph{Pros}
+Good accuracy.
+Can be easily trained.
+\paragraph{Cons}
+Not a real time solution!
+Technical details are not described.
+
+\section{Sign Language Recognition using Temporal Classification}
+Written in 2015. - 6 pages\\
+Difficulty: 5/10
+
+They explored different classification methods (SVM, SPM,LSTM, regression) and they explored different auto-tuned  hyper parameters. The results are not very promising. 
+Also they use  a glove to collect data, not Myo.
+
+\paragraph{Pros}
+Now we know that those approaches are not really accurate.
+They are easy to implement.
+\paragraph{Cons}
+Have not idea how it will work with Myo data
+Is it a real time solution?
+
+\textbf{\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots}
+\section{Short ones}
+
+\subsection{Development of a Hybrid Motion Capture Method Using MYO Armband with Application to Teleoperation}
+
+A motion capture system using Myo. Can be used to control a virtual arm or a robotic arm. Seems hilariously difficult. We don't need it.
+
+\subsection{LOVETT Scaling with Flex Sensor and MYO Armband for Monitoring Finger Muscles Therapy of Post-Stroke People}
+
+Measuring of a hand muscle strength(LOVETT scale) of patient during rehabilitation. It uses Myo + flexible glove. 
+
+\subsection{MYO Armband for Physiotherapy Healthcare: A Case Study Using Gesture Recognition Application}
+
+A study about usability and agronomy of Myo and predefined gestures.
+
+\subsection{Myo the Force Be With You}
+
+A Myo controlled game.
+
+\end{document}

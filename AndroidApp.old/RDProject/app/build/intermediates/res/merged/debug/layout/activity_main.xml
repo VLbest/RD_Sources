@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/fullscreen_content">
+
+    <fragment android:name="com.rdproj.vli.rdproject.fragments.HomeFragment"
+        android:id="@+id/id_home_fragment"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <fragment android:name="com.rdproj.vli.rdproject.fragments.MyoStateFragment"
+        android:id="@+id/id_myo_state_fragment"
+        android:layout_weight="4.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
