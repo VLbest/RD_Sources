@@ -17,3 +17,7 @@ E:\Exia\2017\RDProj\RD_Sources\MyoApp\MyoApp\obj\Debug\MyoApp.Properties.Resourc
 E:\Exia\2017\RDProj\RD_Sources\MyoApp\MyoApp\obj\Debug\MyoApp.csproj.GenerateResource.Cache
 E:\Exia\2017\RDProj\RD_Sources\MyoApp\MyoApp\obj\Debug\MyoApp.exe
 E:\Exia\2017\RDProj\RD_Sources\MyoApp\MyoApp\obj\Debug\MyoApp.pdb
+E:\Exia\2017\RDProj\RD_Sources\MyoApp\MyoApp\bin\Debug\RestSharp.dll
+E:\Exia\2017\RDProj\RD_Sources\MyoApp\MyoApp\bin\Debug\RestSharp.xml
+E:\Exia\2017\RDProj\RD_Sources\MyoApp\MyoApp\bin\Debug\Newtonsoft.Json.dll
+E:\Exia\2017\RDProj\RD_Sources\MyoApp\MyoApp\bin\Debug\Newtonsoft.Json.xml

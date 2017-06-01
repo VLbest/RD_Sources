@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace MyoApp
 {
-    class DataProvider
-    {
+    class GestureObj {
+        public string GestureName { get; set; }
 
-
+        public MyoData[] Data { get; set; }
 
     }
 }

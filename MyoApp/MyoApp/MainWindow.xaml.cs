@@ -22,12 +22,15 @@ namespace MyoApp
     public partial class MainWindow : Window {
 
         private Timer timer;
+        public bool IsRecording { get; set; }
 
         public MainWindow()
         {
             InitializeComponent();
             StartListenning.IsEnabled = false;
             StopListenning.IsEnabled = false;
+            ComboBoxWordList.Items.Add("Hola");
+            ComboBoxWordList.Items.Add("Bueno");
         }
 
         private void InitConnection_Click(object sender, RoutedEventArgs e)
@@ -36,6 +39,7 @@ namespace MyoApp
             StartListenning.IsEnabled = true;
             InitConnection.IsEnabled = false;
             timer = new Timer(UpdateInfo, new AutoResetEvent(true), 1000, 250);
+
         }
 
         private void UpdateInfo(object state) {
@@ -66,7 +70,21 @@ namespace MyoApp
 
         private void StartRecordingClick(object sender, RoutedEventArgs e)
         {
-            MyoManager.start 
+            if (IsRecording) {
+                BtnRecGo.Content = "(waiting) START";
+                TxtRecResults.Content = MyoManager.Instance.StopRecording();
+            } else {
+                BtnRecGo.Content = "(recording) STOP";
+                MyoManager.Instance.StartRecording();
+                TxtRecResults.Content = "";
+            }
+            IsRecording = !IsRecording;
+        }
+
+        private void BtnSave_Click(object sender, RoutedEventArgs e) {
+            TxtRecResults.Content = "Saving.... wait";
+            String response = MyoManager.Instance.SaveData(ComboBoxWordList.SelectedItem.ToString());
+            TxtRecResults.Content = response;
         }
     }
 }

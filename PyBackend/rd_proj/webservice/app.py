@@ -11,7 +11,7 @@ mongo = connection.getDB()
 def get_status():
     return jsonify(True)
 
-@app.route('/data/insert', methods=['POST'])
+@app.route('/insert_sync', methods=['POST'])
 def simple_insert():
     core.insert(mongo.db.dummy, request.json)
     return jsonify({'result': "ok"})
