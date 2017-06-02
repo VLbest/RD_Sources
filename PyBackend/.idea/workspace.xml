@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="195963c2-5314-45f4-a8c1-c560b2c785ba" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/DataProvider.cs" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/.vs/MyoApp/v15/.suo" afterPath="$PROJECT_DIR$/../MyoApp/.vs/MyoApp/v15/.suo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/bin/Debug/MyoApp.exe" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/bin/Debug/MyoApp.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/bin/Debug/MyoApp.pdb" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/bin/Debug/MyoApp.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MainWindow.baml" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MainWindow.baml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MyoApp.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MyoApp.csprojResolveAssemblyReference.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MyoApp.exe" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MyoApp.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MyoApp.g.resources" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MyoApp.g.resources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MyoApp.pdb" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MyoApp.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/MainWindow.xaml" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/MainWindow.xaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/MainWindow.xaml.cs" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/MainWindow.xaml.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/MyoApp.csproj" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/MyoApp.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/MyoManager.cs" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/MyoManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/CoreCompileInputs.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MainWindow.g.cs" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MainWindow.g.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MainWindow.g.i.cs" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MainWindow.g.i.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MyoApp.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MyoApp.csproj.FileListAbsolute.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MyoApp_MarkupCompile.cache" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MyoApp_MarkupCompile.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MyoApp_MarkupCompile.i.cache" afterPath="$PROJECT_DIR$/../MyoApp/MyoApp/obj/Debug/MyoApp_MarkupCompile.i.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rd_proj/datapreproc/datapreparator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rd_proj/datapreproc/preprocessing.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rd_proj/webservice/app.py" afterPath="$PROJECT_DIR$/rd_proj/webservice/app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rd_proj/webservice/config.py" afterPath="$PROJECT_DIR$/rd_proj/webservice/config.py" />
     </list>
     <ignored path="PyBackend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,9 +47,53 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rd_proj/webservice/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="340">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datapreparator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rd_proj/datapreproc/datapreparator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preprocessing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rd_proj/datapreproc/preprocessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataprovidercore.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rd_proj/datapreproc/dataprovidercore.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataprovider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rd_proj/datapreproc/dataprovider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,6 +148,10 @@
         <option value="$PROJECT_DIR$/Rpi/getStreamFromRpi.py" />
         <option value="$PROJECT_DIR$/dex_haar/img_grab.py" />
         <option value="$PROJECT_DIR$/rd_proj/webservice/config.py" />
+        <option value="$PROJECT_DIR$/rd_proj/datapreproc/dataprovidercore.py" />
+        <option value="$PROJECT_DIR$/rd_proj/datapreproc/preprocessing.py" />
+        <option value="$PROJECT_DIR$/rd_proj/datapreproc/dataprovider.py" />
+        <option value="$PROJECT_DIR$/rd_proj/datapreproc/datapreparator.py" />
         <option value="$PROJECT_DIR$/rd_proj/webservice/app.py" />
       </list>
     </option>
@@ -209,7 +238,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webservice" />
+              <option name="myItemId" value="datapreproc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -559,7 +588,7 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18302095" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4347826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33011273" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21255673" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19213313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -635,34 +664,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rd_proj/webservice/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rd_proj/webservice/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rd_proj/webservice/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rd_proj/webservice/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydev_ipython/matplotlibtools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1104">
@@ -981,10 +982,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rd_proj/datapreproc/dataprovider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rd_proj/datapreproc/dataprovidercore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rd_proj/datapreproc/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rd_proj/datapreproc/datapreparator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rd_proj/webservice/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="340">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding />
         </state>
       </provider>

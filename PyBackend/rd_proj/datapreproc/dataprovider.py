@@ -1,7 +1,9 @@
 from flask import Flask, jsonify, request
 import rd_proj.webservice.config as wbs_conf
+from rd_proj.datapreproc.dataprovidercore import get_spe_word
 from rd_proj.webservice.db_connection import DB
 import rd_proj.webservice.core as core
+import pandas as pd
 
 app = Flask(__name__)
 connection = DB(flask_app=app)
@@ -11,7 +13,7 @@ mongo = connection.getDB()
 def get_status():
     return jsonify(True)
 
-@app.route('/insert_sync', methods=['POST'])
+@app.route('/data/insert', methods=['POST'])
 def simple_insert():
     core.insert(mongo.db.dummy, request.json)
     return jsonify({'result': "ok"})
@@ -28,7 +30,3 @@ def get_known_words():
 
 if __name__ == '__main__':
     app.run(debug=True, host=wbs_conf.remote_host_ip)
-
-def get_word(word):
-    samplelist = get_spe_word(mongo.db.wordlist, word)
-    return samplelist
