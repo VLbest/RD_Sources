@@ -65,6 +65,18 @@ namespace MyoApp
                 Emg_6 = Emg.EmgData.GetDataForSensor(5),
                 Emg_7 = Emg.EmgData.GetDataForSensor(6),
                 Emg_8 = Emg.EmgData.GetDataForSensor(7),
+                EmgMAV = 1.0d / 8.0d * (
+                Math.Abs(Emg.EmgData.GetDataForSensor(0)) + 
+                Math.Abs(Emg.EmgData.GetDataForSensor(1)) +
+                Math.Abs(Emg.EmgData.GetDataForSensor(2)) +
+                Math.Abs(Emg.EmgData.GetDataForSensor(3)) + 
+                Math.Abs(Emg.EmgData.GetDataForSensor(4)) +
+                Math.Abs(Emg.EmgData.GetDataForSensor(5)) +
+                Math.Abs(Emg.EmgData.GetDataForSensor(6)) +
+                Math.Abs(Emg.EmgData.GetDataForSensor(7))),
+                Pitch = Ori.Pitch,
+                Roll = Ori.Roll,
+                Yaw = Ori.Yaw,
             };
         }
 

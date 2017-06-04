@@ -45,5 +45,10 @@ namespace MyoApp
         public double Emg_8 { get; set; }
         public DateTime Time_stamp { get; set; }
 
+        public double Pitch { get; set; }
+        public double Roll { get; set; }
+        public double Yaw { get; set; }
+        public double EmgMAV { get; set; }
+
     }
 }

@@ -13,7 +13,7 @@ def get_status():
 
 @app.route('/insert_sync', methods=['POST'])
 def simple_insert():
-    core.insert(mongo.db.dummy, request.json)
+    core.insert(mongo.db.realdata, request.json)
     return jsonify({'result': "ok"})
 
 @app.route('/wordlist', methods=['POST'])
@@ -29,6 +29,3 @@ def get_known_words():
 if __name__ == '__main__':
     app.run(debug=True, host=wbs_conf.remote_host_ip)
 
-def get_word(word):
-    samplelist = get_spe_word(mongo.db.wordlist, word)
-    return samplelist

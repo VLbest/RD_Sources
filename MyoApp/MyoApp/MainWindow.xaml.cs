@@ -29,8 +29,10 @@ namespace MyoApp
             InitializeComponent();
             StartListenning.IsEnabled = false;
             StopListenning.IsEnabled = false;
-            ComboBoxWordList.Items.Add("Hola");
-            ComboBoxWordList.Items.Add("Bueno");
+            ComboBoxWordList.Items.Add("OK");
+            ComboBoxWordList.Items.Add("NO");
+            ComboBoxWordList.Items.Add("QUICK");
+            ComboBoxWordList.Items.Add("PISTOL");
         }
 
         private void InitConnection_Click(object sender, RoutedEventArgs e)
